@@ -11,6 +11,7 @@
 - No selection of cells in bitmask now results in default "grey" color instead of the last selected cell set.
 - Cache computation of internal data structures on `AnnData` zarr loaders.
 - Upgrade zarr.js to 0.4.0
+- Make getting node size efficient by using `reduce` instead of `length`.
 
 ## [1.1.11](https://www.npmjs.com/package/vitessce/v/1.1.11) - 2021-06-25
 

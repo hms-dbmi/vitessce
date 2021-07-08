@@ -53,6 +53,22 @@ export function nodeToHeight(currNode, level = 0) {
 }
 
 /**
+ * Get the size associated with a particular node.
+ * Recursive.
+ * @param {object} currNode A node object.
+ * @returns {number} The length of all the node's children
+ */
+export function getNodeLength(currNode) {
+  if (!currNode) {
+    return [];
+  }
+  if (!currNode.children) {
+    return (currNode.set.length || []);
+  }
+  return currNode.children.reduce((acc, curr) => acc + getNodeLength(curr), 0);
+}
+
+/**
  * Find a node with a matching name path, relative to a particular node.
  * @param {object} node A node object.
  * @param {string[]} path The name path for the node of interest.
@@ -345,7 +361,7 @@ export function nodeToRenderProps(node, path, cellSetColor) {
     title: node.name,
     nodeKey: pathToKey(path),
     path,
-    size: nodeToSet(node).length,
+    size: getNodeLength(node),
     color: cellSetColor?.find(d => isEqual(d.path, path))?.color,
     level,
     isLeaf: (!node.children || node.children.length === 0) && Boolean(node.set),
