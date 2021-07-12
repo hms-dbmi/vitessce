@@ -172,7 +172,7 @@ export default function SpatialSubscriber(props) {
       ...(moleculesLayer ? [{ ...moleculesLayer, type: 'molecules' }] : []),
       ...((cellsLayer && canPassInCellsLayer) ? [{ ...cellsLayer, type: 'cells' }] : []),
       ...(neighborhoodsLayer ? [{ ...neighborhoodsLayer, type: 'neighborhoods' }] : []),
-      ...(rasterLayers ? rasterLayers.map(l => ({ ...l, type: l.type || 'raster' })) : []),
+      ...(rasterLayers ? rasterLayers.map(l => ({ ...l, type: (l.type && ['raster', 'bitmask'].includes(l.type) ? l.type : 'raster') })) : []),
     ];
   }, [cellsLayer, moleculesLayer, neighborhoodsLayer, rasterLayers, imageLayerMeta]);
 

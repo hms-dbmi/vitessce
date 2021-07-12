@@ -11,6 +11,9 @@
 - No selection of cells in bitmask now results in default "grey" color instead of the last selected cell set.
 - Cache computation of internal data structures on `AnnData` zarr loaders.
 - Upgrade zarr.js to 0.4.0
+- Fixed backwards-compatibility `spatialRasterLayers` bugs:
+    - The layer `type` should not be used, since it is currently expected to be either `"raster"` or `"bitmask"`, but previously was allowed to be any string including `"t"`. Instead, need to detect whether the layer is a bitmask layer using `layerMeta.metadata.isBitmask` defined in the `raster.json` file definition.
+    - The `visible` property was previously only available for channels. Now, there is a per-layer `visible` property, but old view configs may not contain this. Therefore, we need to explicitly check that the value is a boolean rather than simply falsy `undefined` or `null`.
 
 ## [1.1.11](https://www.npmjs.com/package/vitessce/v/1.1.11) - 2021-06-25
 

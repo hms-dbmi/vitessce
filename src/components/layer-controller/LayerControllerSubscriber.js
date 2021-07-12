@@ -95,7 +95,7 @@ const LayerControllerMemoized = React.memo(
               const loader = imageLayerLoaders[index];
               const layerMeta = imageLayerMeta[index];
               // Could also be bitmask at the moment.
-              const isRaster = layer.type === 'raster';
+              const isRaster = !layerMeta?.metadata?.isBitmask;
               const ChannelController = isRaster
                 ? RasterChannelController
                 : BitmaskChannelController;

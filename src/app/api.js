@@ -954,6 +954,781 @@ export const configs = {
     ],
     initStrategy: 'auto',
   },
+  'portal-ui-featured': {
+    coordinationSpace: {
+      dataset: {
+        A: 'A',
+      },
+      spatialZoom: {
+        A: 0.6219962674826599,
+      },
+      spatialRotation: {
+        A: 0,
+      },
+      spatialTargetX: {
+        A: 550.9755273834661,
+      },
+      spatialTargetY: {
+        A: 418.2987491735642,
+      },
+      spatialTargetZ: {
+        A: 6.252776074688882e-13,
+      },
+      heatmapZoomX: {
+        A: 0,
+      },
+      heatmapZoomY: {
+        A: 0,
+      },
+      heatmapTargetX: {
+        A: 0,
+      },
+      heatmapTargetY: {
+        A: 0,
+      },
+      cellFilter: {
+        A: null,
+      },
+      cellHighlight: {
+        A: '761',
+      },
+      cellSetSelection: {
+        A: [
+          [
+            'K-Means [Mean] Expression',
+            'Cluster 1',
+          ],
+          [
+            'K-Means [Mean] Expression',
+            'Cluster 2',
+          ],
+          [
+            'K-Means [Mean] Expression',
+            'Cluster 3',
+          ],
+          [
+            'K-Means [Mean] Expression',
+            'Cluster 4',
+          ],
+          [
+            'K-Means [Mean] Expression',
+            'Cluster 5',
+          ],
+          [
+            'K-Means [Mean] Expression',
+            'Cluster 6',
+          ],
+        ],
+      },
+      cellSetHighlight: {
+        A: null,
+      },
+      cellSetColor: {
+        A: [
+          {
+            path: [
+              'K-Means [Mean] Expression',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean] Expression',
+              'Cluster 1',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean] Expression',
+              'Cluster 2',
+            ],
+            color: [
+              136,
+              204,
+              238,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean] Expression',
+              'Cluster 3',
+            ],
+            color: [
+              68,
+              170,
+              153,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean] Expression',
+              'Cluster 4',
+            ],
+            color: [
+              17,
+              119,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean] Expression',
+              'Cluster 5',
+            ],
+            color: [
+              153,
+              153,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean] Expression',
+              'Cluster 6',
+            ],
+            color: [
+              221,
+              204,
+              119,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+              'Cluster 1',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+              'Cluster 2',
+            ],
+            color: [
+              136,
+              204,
+              238,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+              'Cluster 3',
+            ],
+            color: [
+              68,
+              170,
+              153,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+              'Cluster 4',
+            ],
+            color: [
+              17,
+              119,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+              'Cluster 5',
+            ],
+            color: [
+              153,
+              153,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Covariance] Expression',
+              'Cluster 6',
+            ],
+            color: [
+              221,
+              204,
+              119,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+              'Cluster 1',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+              'Cluster 2',
+            ],
+            color: [
+              136,
+              204,
+              238,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+              'Cluster 3',
+            ],
+            color: [
+              68,
+              170,
+              153,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+              'Cluster 4',
+            ],
+            color: [
+              17,
+              119,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+              'Cluster 5',
+            ],
+            color: [
+              153,
+              153,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Total] Expression',
+              'Cluster 6',
+            ],
+            color: [
+              221,
+              204,
+              119,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+              'Cluster 1',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+              'Cluster 2',
+            ],
+            color: [
+              136,
+              204,
+              238,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+              'Cluster 3',
+            ],
+            color: [
+              68,
+              170,
+              153,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+              'Cluster 4',
+            ],
+            color: [
+              17,
+              119,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+              'Cluster 5',
+            ],
+            color: [
+              153,
+              153,
+              51,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Mean-All-SubRegions] Expression',
+              'Cluster 6',
+            ],
+            color: [
+              221,
+              204,
+              119,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Shape-Vectors]',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Shape-Vectors]',
+              'Cluster 1',
+            ],
+            color: [
+              68,
+              119,
+              170,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Shape-Vectors]',
+              'Cluster 2',
+            ],
+            color: [
+              136,
+              204,
+              238,
+              255,
+            ],
+          },
+          {
+            path: [
+              'K-Means [Shape-Vectors]',
+              'Cluster 3',
+            ],
+            color: [
+              68,
+              170,
+              153,
+              255,
+            ],
+          },
+        ],
+      },
+      geneFilter: {
+        A: null,
+      },
+      geneHighlight: {
+        A: null,
+      },
+      geneSelection: {
+        A: null,
+      },
+      geneExpressionColormap: {
+        A: 'plasma',
+      },
+      geneExpressionColormapRange: {
+        A: [
+          0.065,
+          0.435,
+        ],
+      },
+      cellColorEncoding: {
+        A: 'cellSetSelection',
+      },
+      spatialRasterLayers: {
+        A: [
+          {
+            type: 't',
+            index: 0,
+            colormap: null,
+            opacity: 1,
+            domainType: 'Min/Max',
+            transparentColor: null,
+            channels: [
+              {
+                selection: {
+                  z: 5,
+                  t: 0,
+                  c: 10,
+                },
+                color: [
+                  0,
+                  0,
+                  255,
+                ],
+                visible: true,
+                slider: [
+                  1,
+                  14906,
+                ],
+              },
+              {
+                selection: {
+                  z: 5,
+                  t: 0,
+                  c: 15,
+                },
+                color: [
+                  0,
+                  255,
+                  0,
+                ],
+                visible: true,
+                slider: [
+                  2313,
+                  31611,
+                ],
+              },
+              {
+                selection: {
+                  z: 5,
+                  t: 0,
+                  c: 45,
+                },
+                color: [
+                  255,
+                  0,
+                  255,
+                ],
+                visible: true,
+                slider: [
+                  2570,
+                  21074,
+                ],
+              },
+              {
+                selection: {
+                  z: 5,
+                  t: 0,
+                  c: 20,
+                },
+                color: [
+                  255,
+                  255,
+                  0,
+                ],
+                visible: true,
+                slider: [
+                  2827,
+                  11565,
+                ],
+              },
+              {
+                selection: {
+                  z: 5,
+                  t: 0,
+                  c: 31,
+                },
+                slider: [
+                  5658,
+                  17479,
+                ],
+                visible: true,
+                color: [
+                  255,
+                  128,
+                  0,
+                ],
+              },
+              {
+                selection: {
+                  z: 5,
+                  t: 0,
+                  c: 39,
+                },
+                slider: [
+                  1767,
+                  11735,
+                ],
+                visible: true,
+                color: [
+                  255,
+                  255,
+                  255,
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      spatialCellsLayer: {
+        A: {
+          opacity: 0,
+          radius: 50,
+          visible: true,
+          stroked: true,
+        },
+      },
+      spatialMoleculesLayer: {
+        A: null,
+      },
+      spatialNeighborhoodsLayer: {
+        A: null,
+      },
+      additionalCellSets: {
+        A: null,
+      },
+      moleculeHighlight: {
+        A: null,
+      },
+    },
+    datasets: [
+      {
+        files: [
+          {
+            fileType: 'cells.json',
+            type: 'cells',
+            url: 'https://assets.hubmapconsortium.org/ca3016d836d8ee50bef1b93f339c9679/output_json/R002_X002_Y007.cells.json?token=',
+          },
+          {
+            fileType: 'cell-sets.json',
+            type: 'cell-sets',
+            url: 'https://assets.hubmapconsortium.org/ca3016d836d8ee50bef1b93f339c9679/output_json/R002_X002_Y007.cell-sets.json?token=',
+          },
+          {
+            fileType: 'clusters.json',
+            type: 'expression-matrix',
+            url: 'https://assets.hubmapconsortium.org/ca3016d836d8ee50bef1b93f339c9679/output_json/R002_X002_Y007.clusters.json?token=',
+          },
+          {
+            fileType: 'raster.json',
+            options: {
+              images: [
+                {
+                  metadata: {
+                    omeTiffOffsetsUrl: 'https://assets.hubmapconsortium.org/ca3016d836d8ee50bef1b93f339c9679/output_offsets/R002_X002_Y007.offsets.json?token=',
+                  },
+                  name: 'R002_X002_Y007',
+                  type: 'ome-tiff',
+                  url: 'https://assets.hubmapconsortium.org/ca3016d836d8ee50bef1b93f339c9679/output/extract/expressions/ome-tiff/R002_X002_Y007.ome.tiff?token=',
+                },
+              ],
+              schemaVersion: '0.0.2',
+            },
+            type: 'raster',
+          },
+        ],
+        name: 'SPRM',
+        uid: 'A',
+      },
+    ],
+    description: '',
+    initStrategy: 'auto',
+    layout: [
+      {
+        component: 'spatial',
+        coordinationScopes: {
+          dataset: 'A',
+          spatialZoom: 'A',
+          spatialRotation: 'A',
+          spatialTargetX: 'A',
+          spatialTargetY: 'A',
+          spatialTargetZ: 'A',
+          cellFilter: 'A',
+          cellHighlight: 'A',
+          cellSetSelection: 'A',
+          cellSetHighlight: 'A',
+          cellSetColor: 'A',
+          geneHighlight: 'A',
+          geneSelection: 'A',
+          geneExpressionColormap: 'A',
+          geneExpressionColormapRange: 'A',
+          cellColorEncoding: 'A',
+          spatialRasterLayers: 'A',
+          spatialCellsLayer: 'A',
+          spatialMoleculesLayer: 'A',
+          spatialNeighborhoodsLayer: 'A',
+          additionalCellSets: 'A',
+          moleculeHighlight: 'A',
+        },
+        h: 8,
+        w: 7,
+        x: 3,
+        y: 0,
+      },
+      {
+        component: 'description',
+        coordinationScopes: {
+          dataset: 'A',
+          spatialRasterLayers: 'A',
+        },
+        h: 2,
+        w: 2,
+        x: 10,
+        y: 10,
+      },
+      {
+        component: 'layerController',
+        coordinationScopes: {
+          dataset: 'A',
+          spatialRasterLayers: 'A',
+          spatialCellsLayer: 'A',
+          spatialMoleculesLayer: 'A',
+          spatialNeighborhoodsLayer: 'A',
+        },
+        h: 8,
+        w: 3,
+        x: 0,
+        y: 0,
+      },
+      {
+        component: 'cellSets',
+        coordinationScopes: {
+          dataset: 'A',
+          cellSetSelection: 'A',
+          cellSetHighlight: 'A',
+          cellSetColor: 'A',
+          cellColorEncoding: 'A',
+          additionalCellSets: 'A',
+        },
+        h: 5,
+        w: 2,
+        x: 10,
+        y: 5,
+      },
+      {
+        component: 'genes',
+        coordinationScopes: {
+          dataset: 'A',
+          geneFilter: 'A',
+          geneHighlight: 'A',
+          geneSelection: 'A',
+          cellColorEncoding: 'A',
+        },
+        h: 5,
+        props: {
+          variablesLabelOverride: 'antigen',
+        },
+        w: 2,
+        x: 10,
+        y: 0,
+      },
+      {
+        component: 'heatmap',
+        coordinationScopes: {
+          dataset: 'A',
+          heatmapZoomX: 'A',
+          heatmapZoomY: 'A',
+          heatmapTargetX: 'A',
+          heatmapTargetY: 'A',
+          cellFilter: 'A',
+          cellHighlight: 'A',
+          cellSetSelection: 'A',
+          cellSetHighlight: 'A',
+          cellSetColor: 'A',
+          geneFilter: 'A',
+          geneHighlight: 'A',
+          geneSelection: 'A',
+          geneExpressionColormap: 'A',
+          geneExpressionColormapRange: 'A',
+          cellColorEncoding: 'A',
+          additionalCellSets: 'A',
+        },
+        h: 4,
+        props: {
+          transpose: true,
+          variablesLabelOverride: 'antigen',
+        },
+        w: 10,
+        x: 0,
+        y: 8,
+      },
+    ],
+    name: 'R002_X002_Y007',
+    version: '1.0.1',
+  },
 };
 /* eslint-enable */
 

@@ -365,7 +365,8 @@ export default function LayerController(props) {
   const controllerSectionClasses = useControllerSectionStyles();
 
   const { visible } = layer;
-  const Visibility = visible ? VisibilityIcon : VisibilityOffIcon;
+  const visibleSetting = typeof visible === 'boolean' ? visible : true;
+  const Visibility = visibleSetting ? VisibilityIcon : VisibilityOffIcon;
   // Only show Volume tabs if 3D is available.
   const useVolumeTabs = !disable3d && shape[labels.indexOf('z')] > 1;
   const FullController = (
@@ -435,7 +436,8 @@ export default function LayerController(props) {
                 if (!disabled) {
                   // Needed to prevent affecting the expansion panel from changing
                   e.stopPropagation();
-                  setVisible(!visible);
+                  const nextVisible = (typeof visible === 'boolean' ? !visible : false);
+                  setVisible(nextVisible);
                 }
               }}
               style={{
